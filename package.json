@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "./node_modules/.bin/standard",
     "lint-fix": "./node_modules/.bin/standard --fix",
-    "start": "node index.js"
+    "start": "node earlier-deadline-first/index.js"
   },
   "pre-commit": [
     "lint"
