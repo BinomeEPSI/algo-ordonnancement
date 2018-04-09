@@ -7,7 +7,9 @@
     "test": "NODE_ENV=test ./node_modules/mocha/bin/_mocha tests.js --use_strict --exit",
     "lint": "./node_modules/.bin/standard",
     "lint-fix": "./node_modules/.bin/standard --fix",
-    "start": "node earlier-deadline-first/index.js"
+    "start": "node earlier-deadline-first/index.js",
+    "earlier": "node earlier-deadline-first/index.js",
+    "least-slack": "node least-slack-scheduling/index.js"
   },
   "pre-commit": [
     "lint"

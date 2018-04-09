@@ -1,4 +1,4 @@
-const processus = require('./processus')
+const processus = require('../processus')
 
 let date = new Date()
 
@@ -17,5 +17,6 @@ if (process.env.NODE_ENV !== 'test') {
   console.log('All processes')
   console.log(processus)
   console.log('Choosen process :')
+  console.log(`Current timestamp : ${date.getTime()}`)
   console.log(module.exports.solver())
 }

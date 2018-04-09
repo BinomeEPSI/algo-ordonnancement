@@ -8,8 +8,12 @@ Système temps réel TP
 
 ## Test Earlier Deadline First
 
-The processes are stored in `processus.js`
+`npm run earlier`
 
-### Test it
+## Test Least Slack Scheduling
 
-`node earlier-deadline-first/index.js`
+`npm run least-slack`
+
+## Tests
+
+`npm test`
