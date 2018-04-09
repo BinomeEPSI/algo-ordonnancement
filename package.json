@@ -1,0 +1,29 @@
+{
+  "name": "algo-ordonnancement",
+  "version": "0.0.1",
+  "description": "Système temps réel TP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/standard",
+    "lint-fix": "./node_modules/.bin/standard --fix",
+    "start": "node index.js"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BinomeEPSI/algo-ordonnancement.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BinomeEPSI/algo-ordonnancement/issues"
+  },
+  "homepage": "https://github.com/BinomeEPSI/algo-ordonnancement#readme",
+  "devDependencies": {
+    "pre-commit": "^1.2.2",
+    "standard": "^11.0.1"
+  }
+}
