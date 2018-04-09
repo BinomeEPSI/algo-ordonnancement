@@ -1,0 +1,22 @@
+version: 2
+jobs:
+    build:
+        docker:
+            - image: circleci/node:8
+            - image: redis
+        steps:
+            - checkout
+            - run:
+                name: install-dependencies
+                command: npm install
+            - run: 
+                name: linter
+                command: npm run lint
+            - run:
+                name: tests
+                command: npm test
+workflows:
+    version: 2
+    build-deploy:
+        jobs:
+            - build
